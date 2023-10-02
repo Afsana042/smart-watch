@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+          <img src="image/amazon_logo.png" alt="image">
+    </header>
+    <main>
+       <div id="container">
+
+        <!-- watch image section -->
+        <div id="watch">
+            <div id="currenttime"></div>
+            <div id="heartrate">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <p id="hbnumber"></p>
+            </div>
+            <img id="watchimage" src="image/watch4.png" alt="watch">
+        </div>
+
+        <!-- watch about section -->
+        <div id="aboutwatch">
+            <h1>FitBit 19 - The Smartest Watch</h1>
+            <div id="table">
+                <div id="para">
+                    <p>Get it for Better Understanding of Fitness Level and Improvement Areas. Heart Rate Tracking, Touchscreen. <br> <i> 1 Year Warranty Provided by the Manufacturer from Date of Purchase. </i></p>
+                </div>
+
+                <!-- image selector -->
+                <div id="selctor">
+                    <h2>Select Color</h2>
+                    <button id="black"></button>
+                    <button id="peach"></button>
+                    <button id="blue"></button>
+                    <button id="purple"></button>
+                </div>
+
+                <!-- features -->
+                <div id="feature">
+                    <h2>Features</h2>
+                    <button id="showtime">Time</button>
+                    <button id="showheartbeat">Heart Rate</button>
+
+                </div>
+            </div>
+            <div class="buynow">
+                <button id="buynow">Buy Now</button>
+            </div>
+        </div>
+       </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
